@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-h(h8la!m8@pg(oou&4r7e7vdy+ywd4&c!bussdqupzb!qaqzft
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['irresponsible-rylee-overtartly.ngrok-free.dev', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://irresponsible-rylee-overtartly.ngrok-free.dev']
 
 
 # Application definition
@@ -128,7 +129,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'matemmix@gmail.com'
-EMAIL_HOST_PASSWORD = ""
+EMAIL_HOST_USER = 'yoldoshev.firdavs67@gmail.com'
+EMAIL_HOST_PASSWORD = "sint kivs skip gltw"
 EMAIL_PORT = 587  #465
 EMAIL_USE_TLS = True
